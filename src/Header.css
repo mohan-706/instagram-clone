@@ -1,0 +1,113 @@
+.logo{
+    height: 50px;
+    width: 180px;
+    object-fit: contain;
+}
+.logo1{
+    height: 50px;
+    width: 180px;
+    object-fit: contain; 
+}
+.logo2{
+    display: none;
+    height: 50px;
+    width: 180px;
+    object-fit: contain;
+}
+.header{
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.header_profile{
+    margin-left: auto;
+
+}
+.icons{
+    height: 15px;
+    width: 15px;
+    padding: 3px;
+    color: gray;
+}
+.middle_search{
+    display:flex ;
+    margin-top: 15px;
+    border: 1px solid lightgray ;
+    height: 22px;
+    margin-left: 5px;
+    
+    
+}
+.login_container{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.create_icon{
+    height: 30px;
+    padding-top: 10px;
+}
+.upload_container{
+    margin-left: auto;
+    display: flex;
+}
+.middle_search:hover{
+    border: 1px solid black ;
+    transition: 100ms;
+    border-width: 2px;
+}
+.middle_search input{
+    height: 20px;
+    border: none;
+}
+.modall{
+   margin-top: 20%;
+   margin-left: 30%;
+   margin-right: 20%;
+    border-radius: 10px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid #000;
+   
+}
+.input{
+    padding-left: 10px;
+}
+.signup_form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.profile_buttons{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:550px){
+    .logo2{
+        display: flex;
+        width: 50px;
+    }
+    .logo{
+        display: none;
+    }
+    .modall{
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 15%;
+         
+        width: 300px;
+        background-color: white;
+        border: 2px solid #000;
+        
+     }
+    .middle_search{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+    }
+
+}
